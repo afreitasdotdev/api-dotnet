@@ -19,6 +19,9 @@ cd api-dotnet/
 
 Download the container for use? Run: 
 
+> **_NOTE:_**  For use in container you need docker-ce and app listening port 5000.
+
+
 ```
 docker run -it -p 5000:5000 arfreitas/codemoney:1.0
 ```
