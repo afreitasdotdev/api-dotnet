@@ -28,7 +28,7 @@ docker run -it -p 5000:5000 arfreitas/codemoney:1.0
 
 |Route   |Desc   |Method   |
 |---|---|---|
-|/api/values  |   |GET|
+|/api/values  |Show all values   |GET|
 |/api/values?id=1   |   |GET|
-|/api/values/throw?force=true|   |GET|
-|/api/values/error?divided=0|   |GET|
+|/api/values/throw?force=true|Type: Boolean - true force exception and false execute normally   |GET|
+|/api/values/error?divided=0|Type: Integer - 0 or nothing cause exception. 1 The result are divided for 1   |GET|
