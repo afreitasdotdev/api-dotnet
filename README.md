@@ -28,6 +28,7 @@ docker run -it -p 5000:5000 arfreitas/codemoney:1.0
 
 |Route   |Desc   |Method   |
 |---|---|---|
-|   |   |GET|
-|   |   |GET|
-|   |   |GET|
+|/api/values  |   |GET|
+|/api/values?id=1   |   |GET|
+|/api/values/throw?force=true|   |GET|
+|/api/values/error?divided=0|   |GET|
