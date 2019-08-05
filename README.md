@@ -25,6 +25,6 @@ docker run -it -p 5000:5000 arfreitas/codemoney:1.0
 
 ## API ROUTES
 
-|-----|------|-----|
-|ROUTE|DESC|METHOD|
-|-----|------|-----|
+|	|	|	|
+|ROUTE	|DESC	|METHOD	|
+|-----	|------	|-----	|
